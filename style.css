@@ -2,22 +2,126 @@
     box-sizing: border-box;
 }
 
-.headerbox {
-    height: 400px;
+nav {
+    height: 50px;
+    border: 1px dotted purple;
+}
+
+.header {
+    height: 450px;
     width: 850px;
-    background-color: palevioletred;
-    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    background-color: pink;
+    border: 1px solid fuchsia
+    
 }
 
-.container {
-    border-top: 5px dotted green;
-    border-right: 1px solid black;
-    border-bottom: 20px double rgb (23,45,145);
+.header-profile-area {
+    position: relative;
+    height: 225px;
+    background-color: yellow;
+    
 }
 
-.box {
-    border: 1px solid #333333;
-    border-top-style: dotted;
-    border-right-width: 20px;
-    border-bottom-color: hotpink;
+.profile {
+    height: 225px;
+    background-color: white;
+    border-bottom: 1px solid fuchsia;
+    
+}
+
+.profile-pic {
+    background-position: center;
+    background-image: url("https://cdn1.thr.com/sites/default/files/2018/04/gettyimages-946418440_copy_-_embed_2018.jpg");
+    border-radius: 50%;
+    background-size: 150px;
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -60px;
+    left: 20px;;
+}
+
+.profile-bio {
+    
+    position: relative;
+    top: -40px;
+    left: 20px;
+    height: 100px;
+    width: 400px;
+}
+
+.profile-bio h3 {
+    font-weight: lighter;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.profile-buttons {
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    height: 40px;
+    width: 40%;
+    float: right;
+
+}
+
+.profile-buttons button {
+    font-size: 15px;
+}
+
+.employer-and-education {
+    position: relative;
+    width: 40%;
+    float: right;
+
+    bottom: 125px;
+    left: 400px;
+  
+    
+}
+
+.employer-and-education li {
+    list-style: none;
+    
+
+}
+
+.column-one {
+    position: relative;
+    float: left;
+    top: 100px;
+    left: 145px;
+    width: 328px;
+    height: 400px;
+
+    background-color: rgb(230, 172, 210);
+    border: 1px solid cyan;
+    margin-bottom: 200px;
+}
+
+.column-two {
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 225px;
+    width: 512px;
+    height: 400px;
+
+    background-color: rgb(230, 172, 210);
+    border: 1px solid cyan;
+    margin-bottom: 200px;
+}
+
+.column {
+    column-count: 2;
+    column-gap: 10px;
+}
+
+h2, p {
+    text-align: center;
 }
